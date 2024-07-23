@@ -30,9 +30,9 @@ function App() {
       }
     });
 
-    return () => {
-      off(realtime_database.dataRef, unsubscribe);
-    };
+    // return () => {
+    //   off(realtime_database.dataRef, unsubscribe);
+    // };
   }, []);
   console.log(todo);
   return (
